@@ -9,7 +9,9 @@
 </head>
 <body>
 	<h1>Welcome to Library Manager</h1>
-	<form:form action="/login" method="post">
+	<form:form action="/librarymanagement/login" method="post">
+		Username<form:input path="userName" />
+		Password<form:password path="passcode"/>
 		<input type="submit" value="Login"/>
 	</form:form>
 </body>
